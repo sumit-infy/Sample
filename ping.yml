@@ -1,0 +1,7 @@
+---
+ hosts: all
+ become: true
+ task:
+  - name: Testing Ping on server
+    action: ping
+...
