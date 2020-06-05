@@ -1,5 +1,5 @@
 - hosts: all
   become: true
-  task:
+  tasks:
    - name: Testing Ping on server
      action: ping
